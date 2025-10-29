@@ -1,0 +1,338 @@
+<template>
+  <div class="menu-item" @click="isOpen = !isOpen">
+    <a href="#">
+      {{ title }}
+    </a>
+    <svg viewBox="0 0 1030 638" width="10">
+      <path
+        d="M1017 68L541 626q-11 12-16 12t-26-12L13 68Q-3 49 6 24.5T39 0h952q24 0 33 24.5t-7 43.5z"
+        fill="#fff"
+      ></path>
+    </svg>
+    <transition name="fade" appear>
+      <div class="sub-menu" v-if="isOpen">
+        <div class="menu-item">
+          <router-link to="/Dropdown-Campus/CANDON"
+            >CANDON CAMPUS</router-link
+          >
+        </div>
+        <div class="menu-item">
+          <router-link to="/Dropdown-Campus/CERVANTES">CERVANTES CAMPUS</router-link>
+        </div>
+        <div class="menu-item">
+          <router-link to="/Campus/MAIN"
+            >MAIN CAMPUS</router-link
+          >
+        </div>
+        <div class="menu-item">
+          <router-link to="/Campus/NARVACAN">NARVACAN CAMPUS</router-link>
+        </div>
+        <div class="menu-item">
+          <router-link to="/Campus/SANJUAN"
+            >SAN JUAN CAMPUS</router-link
+          >
+        </div>
+        <div class="menu-item">
+          <router-link to="/Campus/SANTIAGO"
+            >SANTIAGO CAMPUS</router-link
+          >
+        </div>
+        <div class="menu-item">
+          <router-link to="/Campus/SANTAMARIA"
+            >STA. MARIA CAMPUS</router-link
+          >
+        </div>
+        <div class="menu-item">
+          <router-link to="/Campus/TAGUDIN"
+            >TAGUDIN CAMPUS</router-link
+          >
+        </div>
+      </div>
+    </transition>
+  </div>
+</template>
+
+<!-- to export the academics dropdown -->
+<script>
+export default {
+  name: 'Campus',
+  props: ['title'],
+  data () {
+    return {
+      isOpen: false
+    }
+  }
+}
+</script>
+
+<style>
+nav .menu-item svg {
+  width: 10px;
+  margin-left: 10px;
+}
+
+nav .menu-item .sub-menu {
+  position: absolute;
+  background-color: #703939;
+  top: calc(100% + 18px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.4s ease-out;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
+
+
+
+
+
+
+
+
+Campus.vue
+<template>
+  <div class="menu-item" @click="isOpen = !isOpen">
+    <a href="#">
+      {{ title }}
+    </a>
+    <svg viewBox="0 0 1030 638" width="10">
+      <path
+        d="M1017 68L541 626q-11 12-16 12t-26-12L13 68Q-3 49 6 24.5T39 0h952q24 0 33 24.5t-7 43.5z"
+        fill="#fff"
+      ></path>
+    </svg>
+    <transition name="fade" appear>
+      <div class="sub-menu" v-if="isOpen">
+        <div class="menu-item">
+          <router-link to="/Dropdown-Campus/CANDON"
+            >CANDON CAMPUS</router-link
+          >
+        </div>
+        <div class="menu-item">
+          <router-link to="/Dropdown-Campus/CERVANTES">CERVANTES CAMPUS</router-link>
+        </div>
+        <div class="menu-item">
+          <router-link to="/Campus/MAIN"
+            >MAIN CAMPUS</router-link
+          >
+        </div>
+        <div class="menu-item">
+          <router-link to="/Campus/NARVACAN">NARVACAN CAMPUS</router-link>
+        </div>
+        <div class="menu-item">
+          <router-link to="/Campus/SANJUAN"
+            >SAN JUAN CAMPUS</router-link
+          >
+        </div>
+        <div class="menu-item">
+          <router-link to="/Campus/SANTIAGO"
+            >SANTIAGO CAMPUS</router-link
+          >
+        </div>
+        <div class="menu-item">
+          <router-link to="/Campus/SANTAMARIA"
+            >STA. MARIA CAMPUS</router-link
+          >
+        </div>
+        <div class="menu-item">
+          <router-link to="/Campus/TAGUDIN"
+            >TAGUDIN CAMPUS</router-link
+          >
+        </div>
+      </div>
+    </transition>
+  </div>
+</template>
+
+<!-- to export the academics dropdown -->
+<script>
+export default {
+  name: 'Campus',
+  props: ['title'],
+  data () {
+    return {
+      isOpen: false
+    }
+  }
+}
+</script>
+
+<style>
+nav .menu-item svg {
+  width: 10px;
+  margin-left: 10px;
+}
+
+nav .menu-item .sub-menu {
+  position: absolute;
+  background-color: #703939;
+  top: calc(100% + 18px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.4s ease-out;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
+
+
+
+
+
+
+
+
+//////
+
+
+<template>
+  <div id="homepage" class="homepage">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-xl-5">
+          <div class="text-container">
+            <h1 class="h1-large">Find the journey for achieving your goals!</h1>
+            <a class="btn-solid-lg" href="./Enroll">Enroll Now !</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+</template>
+
+
+
+
+<template>
+  <div id="homepage" class="homepage">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-xl-5">
+          <div class="text-container">
+            <h1 class="h1-large">Find the journey for achieving your goals!</h1>
+            <a class="btn-solid-lg" href="./Enroll">Enroll Now !</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+</template>
+
+
+
+college.vue
+
+<template>
+  <div class="menu-item" @click="isOpen = !isOpen">
+    <a href="#">
+      {{ title }}
+    </a>
+    <svg viewBox="0 0 1030 638" width="10">
+      <path
+        d="M1017 68L541 626q-11 12-16 12t-26-12L13 68Q-3 49 6 24.5T39 0h952q24 0 33 24.5t-7 43.5z"
+        fill="#fff"
+      ></path>
+    </svg>
+    <transition name="fade" appear>
+      <div class="sub-menu" v-if="isOpen">
+<div class="menu-item">
+<div class="menu-item1">
+<router-link to="/College/CollegeOfComputingStudies">College of Computing Studies</router-link>
+        </div></div>
+<div class="menu-item">
+<div class="menu-item1">
+<router-link to="/College/CTE">College Teacher Education</router-link>
+        </div></div>
+<div class="menu-item">
+<div class="menu-item1">
+<router-link to="/College/CBME">College of Business Management and Entrepreneurship</router-link>
+        </div></div>
+<div class="menu-item">
+<div class="menu-item1">
+<router-link to="/College/CRIMINOLOGY">Criminology</router-link>
+        </div></div>
+<div class="menu-item">
+<div class="menu-item1">
+<router-link to="/College/DVM">Doctor of Veterinary Medicine</router-link>
+        </div></div>
+<div class="menu-item">
+<div class="menu-item1">
+<router-link to="/College/IHTM">Institution of Hospitality and Tourism Management</router-link>
+        </div></div>
+<div class="menu-item">
+<div class="menu-item1">
+<router-link to="/College/PSF">Provincial School of Fisheries</router-link>
+        </div></div>
+<div class="menu-item">
+<div class="menu-item1">
+<router-link to="/College/CAFED">College of Agriculture, Forestry, Engineering & Development Communication</router-link>
+        </div></div>
+      </div>
+    </transition>
+</div>
+</template>
+
+<!-- to export the academics dropdown -->
+<script>
+export default {
+  name: 'College',
+  props: ['title'],
+  data () {
+    return {
+      isOpen: false
+    }
+  }
+}
+</script>
+
+<style>
+nav .menu-item svg {
+  width: 10px;
+  margin-left: 10px;
+}
+
+nav .menu-item1 {
+  color: #ffffff;
+}
+
+nav .menu-item .sub-menu {
+  position: absolute;
+  background-color: #703939;
+  top: calc(100% + 18px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: max-content;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.4s ease-out;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>
+
+

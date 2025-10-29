@@ -1,0 +1,15 @@
+Campuses
+	CandonCampus
+		file: CandonCampus
+	/ Courses
+	Cervantes
+	Main
+	Narvacan
+	San Juan
+	Santiago
+	Sta. Maria
+	Tagudin
+
+Campuses/CandonCampus/Course
+	BSIT
+	BSEd

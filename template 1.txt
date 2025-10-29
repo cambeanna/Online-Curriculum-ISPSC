@@ -1,0 +1,117 @@
+<template>
+  <div class="row1">
+    <div class="text-body">
+      <strong>
+        <span
+          style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 30px; color: rgb(179, 102, 8);"
+        >
+          Welcome to Candon Campus!
+        </span>
+      </strong>
+      <hr id="sub-hr" />
+      <br />
+      <div class="md-content">
+        <div class="text-body-2">
+          <span
+            style="font-size: 26px; font-family: Arial, Helvetica, sans-serif;"
+            >DR. ANNIE D. DORADA</span
+          >
+          <div class="text-sub">Campus Administrator</div>
+        </div>
+      </div>
+	  <div class="course">
+      <p>Course Offered</p>
+    </div>
+    </div>
+	<a class="course_1">
+	<router-link to="/Campuses/CandonCampus/CourseOffered/BachelorofScienceinInformationTechnology">Bachelor of Science in Information Technology</router-link>
+	<router-link to="/">Bachelor of Secondary Education</router-link></a>
+	<br>
+	<a class="course_2">
+	<router-link to="/">Bachelor of Science in Hospitality Management</router-link>
+	<router-link to="/">Bachelor of Science in Tourism Management</router-link></a>
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'CandonCampus'
+}
+</script>
+
+<style>
+.row1 {
+  padding: 40px;
+}
+
+.list {
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+#sub-hr {
+  color: rgb(180, 17, 17);
+  margin-top: 10px;
+}
+
+.text-body-3 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.text-body-3.active,
+.text-body-3:hover {
+  border-bottom-color: #0f9531;
+}
+
+.text-sub {
+  font-size: 14px;
+  font-style: italic;
+  font-family: monospace;
+}
+
+.md-content{
+	padding: 22px;
+}
+
+.course {
+  color: rgb(0, 0, 0);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+.course_1 {
+  text-align: justify;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.course_1 a:hover {
+  color: #a1900e;
+}
+
+.course_1 a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px;
+}
+
+.course_2 {
+  text-align: justify;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.course_2 a:hover {
+  color: #a1900e;
+}
+
+.course_2 a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px;
+}
+</style>

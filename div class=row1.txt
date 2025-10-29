@@ -1,0 +1,70 @@
+<div class="row1">
+          <div class="list">
+            <ul>
+              BACHELOR OF SCIENCE IN INFORMATION SYSTEMS
+            </ul>
+          </div>
+          <div class="description">
+            Program Description:
+          </div>
+          <div class="text-description">
+            <strong>Bachelor of Science in Information Systems</strong>
+            program includes the study of application and effect of information
+            technology to organization. Graduate of the program should be able
+            to implement an information system, which considers complex
+            technological and organizational factors affecting it. These include
+            components, tools, techniques, strategies, methodologies, etc.
+            Graduates are able to help an organization determine how information
+            and technology-enabled business process can be used as strategic
+            tool to achieve a competitive advantage. As a result, IS
+            professionals require a sound understanding of organizational
+            principles and practices so that they can serve as an effective
+            bridge between the technical and management/user communities with an
+            organization.
+          </div>
+        </div>
+        <hr id="hr2" />
+        <br />
+        <div class="description">Program Outcomes:</div>
+        <div class="outcome-des">
+          At the end of the Program, the BSIS graduate should be able to:
+        </div>
+        <div class="PO">
+          The program prepares students to be Information Systems Officers or
+          professionals both local and global context who are expected to design
+          and implement solutions that integrate Information Technology with
+          business processes. A sound understanding of organizational principles
+          and practices so that they can serve as effective bridges between the
+          technical and management communities within the organization; as well
+          as engaged in life-long learning endeavors which are capable of
+          contributing in research, extension and resource generation in the
+          field of Information Systems.
+        </div>
+        <hr id="hr3" />
+        <br />
+        <div class="track">
+          <div class="major">
+            <strong> Major / Specialization / Track: </strong>
+            <a href="#">Business and Data Analysis</a>
+            <div class="major1">
+              <a href="#">Services Management</a>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="navbar-programs">
+          <div class="sub-item-menu">
+            <router-link
+              to="./../CollegeOfTeacherEducation/BSinSecondaryEducation"
+              >Bachelor of Science in Secondary Education
+            </router-link>
+          </div>
+          <div class="sub-item-menu">
+            <router-link
+              to="./../CollegeOfTeacherEducation/BSinElementaryEducation"
+              >Bachelor of Science Elementary Education</router-link
+            >
+          </div>
+        </div>
